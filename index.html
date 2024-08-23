@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racerist</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="pop-up">
+            <h1>GAME OVER</h1>
+            <h2 id="show-score-defeat">YOUR SCORE IS </h2>
+            <button id="fail-confirm">OK</button>
+        </div>
+        <div class="start-game-container">
+            <h2 class="highest-score">Highest Score: </h2>
+            <button id="start-button">START GAME</button>
+        </div>
+        <div class="game-interface">
+            <canvas id="field"></canvas>
+        </div>
+        <div class="controls">
+            <div class="ctrl1 ctrl" action-direction="up">^</div>
+           <div id="mid-divs">
+            <div class="ctrl2 ctrl" action-direction="left"><</div>
+            <div class="ctrl3 ctrl" action-direction="right">></div>
+           </div>
+            <div class="ctrl4 ctrl" action-direction="down">V</div>
+        </div>
+        <h3 id="score">0</h3>
+
+    </div>
+    <script src="classes.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

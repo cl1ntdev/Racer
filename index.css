@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+canvas{
+    border: 1px solid black;
+    /* background: rgb(31, 210, 31); */
+    /* display: none; */
+}
+
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.controls{
+    left:20%;
+    width: auto;
+    position: relative;
+    margin-top: 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#mid-divs{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.ctrl1,.ctrl2,.ctrl3,.ctrl4{
+    margin: 1%;
+   font-size: 159%;
+   border: 1px solid black;
+   padding: 20%;
+   width: 70px;
+   height: 70px;
+}
+
+.ctrl1{
+    position: absolute;
+    background: url(./assets/controls/65529-600.png);
+    background-size: cover;
+    transform: rotate(90deg);
+    top: -2px;
+    right: -50px;
+}
+
+.ctrl2{
+    background: url(./assets/controls/65529-600.png);
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.ctrl3{
+    position: absolute;
+    background: url(./assets/controls/65529-600.png);
+    background-size: cover;
+    transform: rotate(180deg);
+    left: 50px;
+    top: 30px;
+}
+.ctrl4{
+    position: absolute;
+    top:70px;
+    background: url(./assets/controls/65529-600.png);
+    background-size: cover;
+    transform: rotate(270deg);
+    right: -50px;
+}
+.start-game-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    bottom: 50%;
+}
+
+.highest-score{
+    padding: 5%;
+    margin: 5%;
+    width: auto;
+    /* border: 1px solid black; */
+    color: black;
+}
+
+#start-button{
+    font-size:120%;
+    padding: 5%;
+    font-weight: 900;
+}
+
+#score{
+    position: absolute;
+    /* right: 90; */
+    /* color: green; */
+    left: 5%;
+    font-size: 200%;
+    font-weight: 900;
+    bottom: 5%;
+}
+
+.pop-up{
+    /* border: 1px solid black; */
+    margin-top: 150%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fail-confirm{
+    font-size: 150%;
+    font-weight: 900;
+    margin: 5%;
+    /* left: 2%; */
+}
