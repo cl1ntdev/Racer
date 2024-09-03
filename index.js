@@ -12,7 +12,7 @@ let totMidLines = 30
 let mainScore = 0;
 let highScore = 0
 let intervalIdEnemy;
-let randomCarsSpawnLocationX = [260,260]// 260, 50
+let randomCarsSpawnLocationX = [50,260]// 260, 50
 
 
 let storageScore = localStorage.getItem('racer-score')
